@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Register form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <!---- Header section ---->
+
+    <div class="form-box">
+        <form class="login-form">
+            <h1>Login</h1>
+            <div class="input-box">
+                <input type="text" required>
+                <label>Email</label>
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="input-box">
+                <input type="password" required>
+                <label>Password</label>
+                <i class="fa-solid fa-lock"></i>
+            </div>
+            <div class="checkbox">
+                <span>
+                    <input type="checkbox" id="login-checkbox">
+                    <label for="login-checkbox">Remember Me</label>
+                </span>
+                <h5>Forget Password ?</h5>
+            </div>
+            <button type="submit" class="submit-btn">Submit</button>
+            <h5 class="register-btn">Don't have an account ? Register Now</h5>
+        </form>
+        <form class="register-form">
+            <h1>Register</h1>
+            <div class="input-box">
+                <input type="text" required>
+                <label>Username</label>
+                <i class="fa-solid fa-user"></i>
+            </div>
+            <div class="input-box">
+                <input type="text" required>
+                <label>Email</label>
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+            <div class="input-box">
+                <input type="text" required>
+                <label>Password</label>
+                <i class="fa-solid fa-lock"></i>
+            </div>
+            <div class="checkbox">
+                <input type="checkbox" id="register-checkbox">
+                <label for="register-checkbox">
+                    I agree to the term & conditions
+                </label>
+            </div>
+            <button type="submit" class="submit-btm">Submit</button>
+            <h5 class="login-btn">Register before ? login </h5>
+        </form>
+    </div>
+
+
+
+
+    <!---- /Header section ---->
+
+
+    <script src="app.js"></script>
+</body>
+</html>
